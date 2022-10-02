@@ -115,7 +115,7 @@
 |8|0|8|u8|MCU_clusterBrightnessLevel|0-127.5|
 |16|0|8|u8|padding (always 0x00)|0|
 
-# Example: ```cansend can0 388#03c800``` turns on the cluster at full brightness.
+#### Example: ```cansend can0 388#03c800``` turns on the cluster at full brightness.
 
 ### Ethernet ports on IC:
 =======

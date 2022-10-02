@@ -104,21 +104,19 @@
 |40|0|8|u8|IC_10HZ_CH_txectr|
 |48|0|8|u8|IC_10Hz_CH_rxectr|
 
-### CAN messages sent to IC (to be updated):
+## CAN messages sent to IC (to be updated):
 
-## MCU_clusterBacklightRequest:
+### MCU_clusterBacklightRequest:
 |Position|Index|Size|Type|Description|Range|
 |---|---|---|---|---|---|
 |0|0|1|bool|MCU_clusterBacklightOn|0-1|
 |1|0|1|bool|MCU_clusterReadyForDrive|0-1|
 |2|0|1|bool|MCU_clusterReadyForPowerOff|0-1|
-|8|0|8|u8|MCU_clusterBrightnessLevel|0-127.5|
+|8|0|8|float|MCU_clusterBrightnessLevel|0-127.5|
 |16|0|8|u8|padding (always 0x00)|0|
 
 #### Example: ```cansend can0 388#03c800``` turns on the cluster at full brightness.
 
-### Ethernet ports on IC:
-=======
 ## Ethernet ports on IC:
 
 |Port|Service|

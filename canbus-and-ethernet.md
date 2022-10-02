@@ -104,7 +104,6 @@
 |40|0|8|u8|IC_10HZ_CH_txectr|
 |48|0|8|u8|IC_10Hz_CH_rxectr|
 
-<<<<<<< HEAD
 ### CAN messages sent to IC (to be updated):
 
 ## MCU_clusterBacklightRequest:
@@ -121,7 +120,6 @@
 ### Ethernet ports on IC:
 =======
 ## Ethernet ports on IC:
->>>>>>> a04c42465f41d445b884a0fa838a2e1ed4487c7c
 
 |Port|Service|
 |---|---|

@@ -1,4 +1,4 @@
-### CAN bus signals from IC:
+## CAN bus signals from IC:
 
 |Signal ID|Length|Signal Name|
 |---|---|---|
@@ -9,7 +9,7 @@
 |0x59C|8|IC_version|
 |0x70C|8|IC_10Hz_Debug|
 
-## IC_status:
+### IC_status:
 |Position|Index|Size|Type|Description|
 |---|---|---|---|---|
 |0|0|1|bool|IC_backlightOn|
@@ -20,7 +20,7 @@
 |16|0|8|u8, /10|IC_12vSupply|
 |24|0|8|u8|IC_LEDBrightnessClass|
 
-## IC_warningMatrix
+### IC_warningMatrix
 |Position|Index|Size|Type|Description|
 |---|---|---|---|---|
 |0|0|1|bool|IC_w001_CAN_RX|
@@ -40,7 +40,7 @@
 |14|0|1|bool|IC_w015_unused|
 |15|0|1|bool|IC_w016_unused|
 
-## IC_info:
+### IC_info:
 |Position|Index|Size|Type|Description|
 |---|---|---|---|---|
 |0|N/A|8|u8|Mux|
@@ -58,7 +58,7 @@
 |8|20|8|u8|IC_infoBootLdUdsProtocolVersion|
 |32|20|32|u32|IC_bootloaderCrc|
 
-## IC_faultMatrix:
+### IC_faultMatrix:
 
 |Position|Index|Size|Type|Description|
 |---|---|---|---|---|
@@ -79,7 +79,7 @@
 |14|0|1|bool|IC_f015_unused|
 |15|0|1|bool|IC_f016_unused|
 
-## IC_version:
+### IC_version:
 
 |Position|Index|Size|Type|Description|
 |---|---|---|---|---|
@@ -92,7 +92,7 @@
 |48|0|8|u8|IC_componentMaturity|
 |56|0|8|u8|IC_componentHardwareRevision|
 
-## IC_10Hz_Debug:
+### IC_10Hz_Debug:
 
 |Position|Index|Size|Type|Description|
 |---|---|---|---|---|
@@ -104,6 +104,7 @@
 |40|0|8|u8|IC_10HZ_CH_txectr|
 |48|0|8|u8|IC_10Hz_CH_rxectr|
 
+<<<<<<< HEAD
 ### CAN messages sent to IC (to be updated):
 
 ## MCU_clusterBacklightRequest:
@@ -118,6 +119,9 @@
 # Example: ```cansend can0 388#03c800``` turns on the cluster at full brightness.
 
 ### Ethernet ports on IC:
+=======
+## Ethernet ports on IC:
+>>>>>>> a04c42465f41d445b884a0fa838a2e1ed4487c7c
 
 |Port|Service|
 |---|---|
